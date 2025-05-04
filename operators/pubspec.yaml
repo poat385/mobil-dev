@@ -1,0 +1,38 @@
+name: operators
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^5.0.0
+
+flutter_icons:
+  windows:
+    generate: true
+    image_path: "assets/images/icon.jpg"
+    icon_size: 48 # min:48, max:256, default: 48
+  android: true
+  ios: true
+  image_path: "assets/images/icon.jpg"
+
+  entrypoint: lib/units/main.dart
+
+flutter:
+  assets:
+    - assets/images/1.jpg
+    - assets/images/2.jpg
+    - assets/images/3.jpg
+    - assets/images/4.jpg
+    - assets/images/5.jpg
+
+  uses-material-design: true
